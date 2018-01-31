@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Your own server",
+            "server": "http://localhost",
+            "port": 11009,
+            "tenant": "",
+            "serverInstance": "NAV_Cronus_Dev_2018",
+            "authentication": "Windows",
+            "startupObjectId": 22,
+        }
+    ]
+}
