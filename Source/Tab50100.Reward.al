@@ -48,6 +48,7 @@ table 50100 "TTT Reward"
         field(7;"Private E-mail";Text[120])
         {
             ExtendedDatatype = EMail;
+            Caption = 'Private E-mail';
         }
     }
 
