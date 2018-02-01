@@ -39,6 +39,12 @@ table 50100 "TTT Reward"
             Caption = 'Last Modified Date';
             Editable = false;
         }
+        // The "Description 2" field can contain a string 
+        // with up to 250 characters.
+        field(6;"Description 2";Text[250])
+        {
+            Caption = 'Description 2';
+        }
     }
 
     keys
