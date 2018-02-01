@@ -45,6 +45,10 @@ table 50100 "TTT Reward"
         {
             Caption = 'Description 2';
         }
+        field(7;"Private E-mail";Text[120])
+        {
+            ExtendedDatatype = EMail;
+        }
     }
 
     keys
