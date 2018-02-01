@@ -49,6 +49,7 @@ table 50100 "TTT Reward"
         {
             ExtendedDatatype = EMail;
             Caption = 'Private E-mail';
+            Editable = false; // hmmm ...
         }
     }
 
